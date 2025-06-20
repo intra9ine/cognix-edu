@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { useRouter } from 'next/navigation'
-import {   navBarItems } from '@/lib/constant'
+import { quickLinks } from '@/lib/constant'
 import Image from 'next/image'
 import SignUp from './SignUp'
 
@@ -15,7 +15,7 @@ const Footer = () => {
 
     }
     return (
-      <footer className='mt-12  text-[var(--primary-white-hex)]'>
+      <footer className='mt-8 font-roboto lg:mt-0  text-[var(--primary-white-hex)]'>
 
       <section className="bg-cover pt-8 bg-center bg-[url('/footer-bg.webp')] ">
       
@@ -28,7 +28,7 @@ const Footer = () => {
                   <Image
                     width={100}
                     height={100}
-                    className="cursor-pointer  w-[10rem] lg:mt-[5rem]"
+                    className="cursor-pointer  w-[28rem] lg:w-[20rem]"
                     src="/icons/logo.svg"
                     alt="footer logo"
                     priority
@@ -39,7 +39,7 @@ const Footer = () => {
                   />
                   
                   <p className=" leading-[1.4rem] mt-[2rem] text-[var(--medium-grey-hex)] text-sm">
-                  LEARNOVATE EDUCATION & TRAINING COMPUTER SOFTWARE empowers individuals with cutting-edge IT skills and practical expertise for a successful tech career.
+                  Cognix Education & Training Computer Software empowers individuals with cutting-edge IT skills and practical expertise for a successful tech career.
                   </p>
                 </main>
       
@@ -49,7 +49,7 @@ const Footer = () => {
                     <h1 className="text-xl  font-bold">Quick links:</h1>
                   </li>
                   <li className='flex flex-col gap-3 pt-3 font-medium'>
-                 {navBarItems.map((item)=>(
+                 {quickLinks.map((item)=>(
                   <a href={item.link} key={item.id} className={`${item.id!==4 && item.id!==5?'block':'hidden'}`}>{item.title}</a>
                  ))}
                  </li>
@@ -72,7 +72,7 @@ const Footer = () => {
                 width={200}
                 height={200}
                 priority
-              /><a href='tel:971581899443' >+971 58 189 9443</a></li>
+              /><a href='tel:971552373525' >+971 55 237 3525</a></li>
                   <li className='flex gap-2'> <Image
                 src={
             
@@ -83,7 +83,7 @@ const Footer = () => {
                 width={200}
                 height={200}
                 priority
-              /><a href='mailto:learnovateeducation23@gmail.com' >learnovateeducation23@gmail.com</a></li>
+              /><a href='mailto:congnixeducation@gmail.com' >congnixeducation@gmail.com</a></li>
                   <li className='flex gap-2'> <Image
                 src={
             
@@ -94,9 +94,7 @@ const Footer = () => {
                 width={200}
                 height={200}
                 priority
-              />F-40, Soud Al-Fahidi Building Meena Bazar,DXB
-Burman
-Dubai</li>
+              />Office - 175  The Binary By Omniyat Business Bay Dubai United Arab Emirates</li>
                 </ul>
                 <SignUp/>
               </main>
@@ -105,7 +103,7 @@ Dubai</li>
       
                       <div className=" h-[0.05rem] w-full bg-[var(--light-grey-hex)] "></div>
                       <main className='w-11/12 mx-auto flex  justify-center py-4 lg:py-2 items-center '>
-                          <label className="py-4 text-sm text-center text-[var(--medium-grey-hex)]">2025 LETC. All rights reserved
+                          <label className="py-4 text-sm text-center text-[var(--medium-grey-hex)]">2025 CETC. All rights reserved
                             </label>
       
                       </main>

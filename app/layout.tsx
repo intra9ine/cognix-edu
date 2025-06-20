@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {  Roboto } from "next/font/google";
+import {  Poppins, Roboto } from "next/font/google";
 import "./globals.css";
 
 const roboto = Roboto({
@@ -8,7 +8,12 @@ const roboto = Roboto({
   display: 'swap',
   subsets: ["latin"],
 });
-
+const poppins = Poppins({
+  weight: "400",
+  variable:'--font-poppins',
+  display: 'swap',
+  subsets: ["latin"],
+});
 export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
@@ -29,7 +34,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </head>
-      <body className={`${roboto.className} relative`}>{children}</body>
+      <body className={`${roboto.variable} ${poppins.variable} `}>{children}</body>
     </html>
   );
 }

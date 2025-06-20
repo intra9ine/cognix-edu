@@ -8,12 +8,7 @@ export const navBarItems = [
       isSelectedNav: false,
       link: "/",
     },
-    {
-      id: 2,
-      title: "About Us",
-      isSelectedNav: false,
-      link: "#about-us",
-    },
+ 
   
     {
       id: 3,
@@ -37,11 +32,107 @@ export const navBarItems = [
       id: 6 ,
       title: "Contact Us",
       isSelectedNav: false,
-      link: "mailto:learnovateeducation23@gmail.com",
+      link: "mailto:congnixeducation@gmail.com",
     },
   ];
 
+  export const quickLinks = [
+    {
+      id: 1,
+      title: "Home",
+      isSelectedNav: false,
+      link: "/",
+    },
+    {
+      id: 2,
+      title: "About Us",
+      isSelectedNav: false,
+      link: "#about-us",
+    },
+ 
+  
+    {
+      id: 3,
+      title: "Courses",
+      isSelectedNav: false,
+      link: "#course-section",
+    },
+    {
+      id: 4,
+      title: "Why Choose Us",
+      isSelectedNav: false,
+      link: "#why-choose-section",
+    },
+    {
+      id: 5,
+      title: "Testimonial",
+      isSelectedNav: false,
+      link: "#testimonial-section",
+    },
+    {
+      id: 6 ,
+      title: "Contact Us",
+      isSelectedNav: false,
+      link: "mailto:congnixeducation@gmail.com",
+    },
+  ];
 
+  export const programList=[
+    {
+        id:1,
+    title:'Educational Software Development',
+    list:[' Custom e-learning platforms',' Learning Management Systems (LMS)',' Interactive educational games & simulations'],
+    icon:'/icons/icon-one.webp'
+  },
+  {
+    id:2,
+    title:'Training Programs',
+    list:[' Corporate training solutions',' Professional development courses',' Certification programs',' Online and in-person training sessions'],
+icon:'/icons/icon-two.webp'
+},
+{
+    id:3,
+title:'IT Consulting',
+list:[' Technology integration in educational institutions','  IT infrastructure setup and management',' Software implementation and support'],
+icon:'/icons/icon-three.webp'
+},
+{
+    id:4,
+title:'Digital Content Creation',
+list:[' E-books and digital textbooks',' Multimedia content for educational purposes',' Course material development'],
+icon:'/icons/icon-four.webp'
+},
+{
+    id:5,
+title:'Mobile App Development',
+list:[' Educational mobile applications',' Training and learning apps',' Interactive and gamified learning apps'],
+icon:'/icons/icon-five.webp'
+},
+{
+    id:6,
+    title:'Cloud Services',
+    list:[' Cloud-based education platforms',' Data storage and management solutions',' Virtual classrooms & remote learning environments'],
+icon:'/icons/icon-six.webp'
+},
+{
+    id:7,
+title:'Technical Support and Maintenance ',
+list:[' Ongoing technical support for educational software',' Maintenance & updates for training platforms',' User training and troubleshooting assistance'],
+icon:'/icons/icon-seven.webp'
+},
+{
+    id:8,
+title:'Consulting and Advisory Services',
+list:[' Curriculum design and development',' Educational technology strategy',' Market research & analysis for educational products'],
+icon:'/icons/icon-eight.webp'
+},
+{
+    id:9,
+title:'Data Analytics and Reporting',
+list:[' Student performance tracking',' Learning analytics solutions',' Custom reporting tools for educators & administrators'],
+icon:'/icons/icon-nine.webp'
+},
+]
 
 
 // button name
@@ -64,7 +155,7 @@ export const buttonName={
 export const pathName={
     AboutUs:'about-us',
     Home:'/',
-    ContactUs:'mailto:learnovateeducation23@gmail.com',
+    ContactUs:'mailto:congnixeducation@gmail.com',
    Collections:'/collection'
     
 }
@@ -247,21 +338,21 @@ export const specializations = [
       defaultIcon: "/icons/industry.svg",
       title: " Industry-Aligned Training",
       description:
-        "Our courses are designed to meet the latest industry demands, ensuring you gain relevant and practical skills.",
+        "Stay ahead with training programs designed to match current industry standards, ensuring you're job-ready from day one.",
     },
     {
       id: 2,
       defaultIcon: "/icons/expert.svg",
       title: "Expert-Led Programs",
       description:
-        "Learn from experienced professionals who bring real-world expertise to the classroom.",
+        "Learn from seasoned industry professionals who bring real-world experience and insights into every session, ensuring practical & impactful learning.",
     },
     {
       id: 3,
       defaultIcon: "/icons/support.svg",
       title: "Comprehensive Support",
       description:
-        "From hands-on training to career guidance, we provide complete support for your success.",
+        "From enrollment to job placement, Cognix offers end-to-end support to guide you at every step of your learning journey.",
     },
   ];
   export const testimonialLists=[

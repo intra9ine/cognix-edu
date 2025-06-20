@@ -88,3 +88,13 @@
     transform: scale(1, 1);
   }
 }
+
+@keyframes circleReveal {
+  from {
+    clip-path: circle(0% at 0% 0%);
+  }
+  to {
+    clip-path: circle(150% at 0% 0%);
+  }
+}
+

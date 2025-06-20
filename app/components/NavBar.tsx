@@ -55,12 +55,12 @@ const NavBar = () => {
    return (
       <nav className={`fixed z-10 flex justify-center w-full `}>
          <main className='w-full'>
-         <div className={`navbar__container ${isScrolled ? 'bg-[var(--primary-pink-hex)]  shadow-md' : ''}`} id="nav">
+         <div className={`navbar__container py-8 px-10 lg:px-8 ${isScrolled ? 'bg-[var(--darker-blue-hex)]  shadow-md' : ''}`} >
 
                <main className='flex lg:flex-row lg:justify-between w-3/4 lg:w-full lg:items-center'>
                
-               <div className={` w-[10rem] lg:w-[8rem]  flex justify-start items-start`}>
-                     <Image width={100} height={100} className={`w-[10rem] lg:w-[8rem] cursor-pointer ${isScrolled ? ' w-[10rem] ' : ''}`} src={`/icons/logo.svg`} alt='logo' priority onClick={() => { router.push(Home); window.scrollTo(0, 0); }}/>
+               <div className={` w-[28rem] lg:w-[13rem]  flex justify-start items-start`}>
+                     <Image width={100} height={100} className={`w-[28rem] lg:w-[13rem] cursor-pointer ${isScrolled ? ' w-[10rem] ' : ''}`} src={`/icons/logo.svg`} alt='logo' priority onClick={() => { router.push(Home); window.scrollTo(0, 0); }}/>
                     
                   </div>
                   <div className={`hidden lg:flex justify-start items-center`}>
@@ -79,14 +79,14 @@ const NavBar = () => {
                </main>
                </main>
               
-               <Button path={'mailto:learnovateeducation23@gmail.com'} className='lg:hidden' role='button' name='Register Now'/>
+               <Button path={'mailto:congnixeducation@gmail.com'} className='lg:hidden' role='button' name='Register Now'/>
               
               
                
                
             </div>
             {/* mobile Nav */}
-            {isOpen && <nav className='hidden lg:block navbar-menu about-service__container h-full w-full top-0 overflow-hidden left-0 fixed z-25'>
+            {isOpen && <nav className='hidden lg:block navbar-menu  h-full w-full top-0 overflow-hidden left-0 fixed z-25'>
                <div className='h-full overflow-y-auto pb-5 text-[var(--primary-white-hex)]'>
                   <div className='overflow-y-scroll'>
                      <ul className=' flex flex-col w-full pointer-events-auto'>
@@ -103,7 +103,7 @@ const NavBar = () => {
                               </div>
                            </div>
                         ))}
-                         <div className='py-6 flex items-center justify-between mx-10 border-t h-full cursor-pointer last:pr-0'> <Link href={'mailto:learnovateeducation23@gmail.com'}  className=' zoom-in underline-offset-8'>Contact Us</Link></div>
+                         <div className='py-6 flex items-center justify-between mx-10 border-t h-full cursor-pointer last:pr-0'> <Link href={'mailto:congnixeducation@gmail.com'}  className=' zoom-in underline-offset-8'>Contact Us</Link></div>
                      </ul>
                   </div>
                </div>

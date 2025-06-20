@@ -21,7 +21,7 @@ background: var(--primary-white-hex) !important;
 }
 
 .btn--primary {
-  background: linear-gradient(360deg, rgba(193,39,45,1) 0%, rgba(19,19,19,1) 100%);
+  background: linear-gradient(90deg,rgba(12, 29, 173, 1) 0%, rgba(0, 1, 9, 1) 100%);
   display: flex;
 
   color: var(--primary-white-hex);

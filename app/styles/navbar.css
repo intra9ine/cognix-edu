@@ -29,27 +29,17 @@
 
 
 
-.navbar-menu{
-  background:var(--deep-shade-blue-hex);  
-  background: linear-gradient(to right, #FF006E, #0F1B88);  
+.navbar-menu {
+  background: linear-gradient(to right, #FF006E, #0F1B88);
   width: 100%;
-  animation: linear;
-  animation-name: run;
-  animation-duration: 1s;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Initial circle is small (0% radius) */
+  clip-path: circle(0% at 0% 0%);
+  animation: circleReveal 1s ease-out forwards;
+  z-index: 1000;
 }
 
-.hamburger-menu:after {
-  display: inline-block;
-  content: "\00d7"; 
-  cursor: pointer;
-}
-.hamburger-menu{
-  font-size:2rem;
-}
-.nav__title{
-  color: var(--primary-pink-hex);
-}
-
-.fixed-nav{
-  background:var(--pinkish-white);
-}

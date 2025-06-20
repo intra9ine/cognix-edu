@@ -5,27 +5,8 @@
       
 }
 
-@media screen and (max-width:1170px){
-    
-      
-      .navbar__container {
-        padding: 1rem 1.8rem;  
-        padding-top:1rem ; 
-        padding-bottom:1rem ; 
-        padding-right:1.8rem ;
-      }
-     
- 
-      
-}
-@media screen and (min-width:1171px){
-    
-      .navbar__container {  
-        padding: 1rem 2.5rem;   
-      }
-    
-   
-}
+
+
 @media (max-width: 1024px) and (min-width: 896px) and (orientation:landscape){
   #intro-bg__section{
     height: 45rem !important;
