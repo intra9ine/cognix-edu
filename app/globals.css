@@ -138,3 +138,7 @@ html, body {
   border:0.15rem solid var(--primary-pink-hex);
   background-color: var(--light-blue-hex);
 }
+
+.course-bg{
+  background: linear-gradient(90deg,#0F1B88 0%, #040722 100%);
+}

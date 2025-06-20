@@ -82,55 +82,55 @@ export const navBarItems = [
         id:1,
     title:'Educational Software Development',
     list:[' Custom e-learning platforms',' Learning Management Systems (LMS)',' Interactive educational games & simulations'],
-    icon:'/icons/icon-one.webp'
+    icon:'/icons/icon-one.svg'
   },
   {
     id:2,
     title:'Training Programs',
     list:[' Corporate training solutions',' Professional development courses',' Certification programs',' Online and in-person training sessions'],
-icon:'/icons/icon-two.webp'
+icon:'/icons/icon-two.svg'
 },
 {
     id:3,
 title:'IT Consulting',
 list:[' Technology integration in educational institutions','  IT infrastructure setup and management',' Software implementation and support'],
-icon:'/icons/icon-three.webp'
+icon:'/icons/icon-three.svg'
 },
 {
     id:4,
 title:'Digital Content Creation',
 list:[' E-books and digital textbooks',' Multimedia content for educational purposes',' Course material development'],
-icon:'/icons/icon-four.webp'
+icon:'/icons/icon-four.svg'
 },
 {
     id:5,
 title:'Mobile App Development',
 list:[' Educational mobile applications',' Training and learning apps',' Interactive and gamified learning apps'],
-icon:'/icons/icon-five.webp'
+icon:'/icons/icon-five.svg'
 },
 {
     id:6,
     title:'Cloud Services',
     list:[' Cloud-based education platforms',' Data storage and management solutions',' Virtual classrooms & remote learning environments'],
-icon:'/icons/icon-six.webp'
+icon:'/icons/icon-six.svg'
 },
 {
     id:7,
 title:'Technical Support and Maintenance ',
 list:[' Ongoing technical support for educational software',' Maintenance & updates for training platforms',' User training and troubleshooting assistance'],
-icon:'/icons/icon-seven.webp'
+icon:'/icons/icon-seven.svg'
 },
 {
     id:8,
 title:'Consulting and Advisory Services',
 list:[' Curriculum design and development',' Educational technology strategy',' Market research & analysis for educational products'],
-icon:'/icons/icon-eight.webp'
+icon:'/icons/icon-eight.svg'
 },
 {
     id:9,
 title:'Data Analytics and Reporting',
 list:[' Student performance tracking',' Learning analytics solutions',' Custom reporting tools for educators & administrators'],
-icon:'/icons/icon-nine.webp'
+icon:'/icons/icon-nine.svg'
 },
 ]
 

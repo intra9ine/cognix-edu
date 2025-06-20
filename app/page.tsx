@@ -151,7 +151,7 @@ At Cognix, we are committed to nurturing talent and transforming potential into 
 
       <div id='course-section' className="py-10 "></div>
       {/* Explore Featured Courses */}
-      <section className="font-poppins py-12 mx-auto text-[var(--primary-white-hex)]  bg-[var(--darker-blue-hex)] flex justify-center items-center flex-col pt-6 ">
+      <section className="font-poppins py-12 mx-auto text-[var(--primary-white-hex)]  course-bg flex justify-center items-center flex-col pt-6 ">
         
       <h1 className="text-center capitalize py-4  leading-[3rem] text-4xl xlgm:text-3xl smx:text-2xl font-bold">
       Comprehensive Training Programs
