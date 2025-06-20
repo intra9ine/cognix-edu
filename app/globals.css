@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('../app/styles/button.css');
+@import url('../app/styles/animation.css');
+@import url('../app/styles/mediaQueries.css');
+@import url('../app/styles/input.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  } 
+
+
+  :root {
+    /* black variant */
+    --primary-black-hex: #000000;
+    --transparent-black-hex:#232323;
+    --darker-black-hex:#343434;
+      /* white variant */
+   --primary-white-hex:#fff;
+   /* pink variant */
+   --primary-pink-hex:#C1272D;
+ /* blue variant */
+
+ --darker-blue-hex:#0963C6;
+ --light-blue-hex:#1f4f8d;
+ /* purple variant */
+ --primary-purple-hex:#0E2A46;
+/* grey variant */
+--light-grey-hex:#bacfcd;
+--light-shade-grey-hex:#F3F5F5;
+--darker-grey-hex:#696969;
+  /* green variant */
+  --primary-green-hex:#88C529;
+  --lighter-green-hex:#2FC7A1;
+  --darker-green-hex:#213403;
+
+  }
+
+  ::-webkit-scrollbar{
+    background-color: var(--primary-pink-hex);
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  .testimonial-card{
+    overflow: visible;
+    border-radius: 1.5rem;
+    background-clip: padding-box;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .testimonial--container::-webkit-scrollbar{
+    display: none;
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+  }
+.intro__section{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.tooltip {
+  /* position: relative; */
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  width: 2.5rem;
+  font-size: 0.8rem;
+  background-color: var(--primary-green-hex);
+  color: var(--primary-white-hex);
+  text-align: center;
+  padding: 0.3rem 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--primary-green-hex) transparent transparent transparent;
+}
+.special-card {
+background: url('/icons/card.svg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+
+}
+

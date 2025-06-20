@@ -1,0 +1,55 @@
+.navbar__container {
+ 
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.navbar-transparent{
+  background-color: transparent;
+}
+
+/* mobile */
+.mobile-icon{
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.menu-icon{
+  
+  background-image: url('/icons/menu-icon.svg');
+}
+.call-icon{
+ 
+  background-image: url('/call-icon.webp');
+}
+
+
+
+.navbar-menu{
+  background:var(--deep-shade-blue-hex);  
+  background: linear-gradient(to right, #FF006E, #0F1B88);  
+  width: 100%;
+  animation: linear;
+  animation-name: run;
+  animation-duration: 1s;
+}
+
+.hamburger-menu:after {
+  display: inline-block;
+  content: "\00d7"; 
+  cursor: pointer;
+}
+.hamburger-menu{
+  font-size:2rem;
+}
+.nav__title{
+  color: var(--primary-pink-hex);
+}
+
+.fixed-nav{
+  background:var(--pinkish-white);
+}

@@ -1,0 +1,60 @@
+.btn {
+  border-radius: 2rem !important;
+  align-items: center;
+  box-shadow: var(--primary-black-hex) 0px 3px 4px;
+}
+.btn-border{
+  border-radius: 0.5rem;
+}
+
+.btn--secondary{
+background: var(--primary-white-hex) !important;
+
+}
+.btn--secondary h1{
+ 
+   
+    background: linear-gradient(90deg, rgba(255,0,110,1) 0%, rgba(15,27,136,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.btn--primary {
+  background: linear-gradient(360deg, rgba(193,39,45,1) 0%, rgba(19,19,19,1) 100%);
+  display: flex;
+
+  color: var(--primary-white-hex);
+  
+}
+
+.btn--primary .circle {
+  background-color: var(--primary-green-hex);
+}
+.btn--primary .circle__arrow {
+  color: var(--primary-pink-hex);
+}
+.circle__arrow {
+  color: var(--primary-white-hex);
+  font-weight: normal;
+}
+.discuss-circle {
+  border-radius: 3rem;
+  height: 3rem;
+  width: 3rem;
+  margin: 0.1rem;
+}
+
+.circle__arrow-discuss {
+
+  font-size: 2.4rem;
+
+}
+.btn--send{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-pink-hex);
+  border-radius: 0.5rem;
+}
