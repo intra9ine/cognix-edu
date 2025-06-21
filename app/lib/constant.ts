@@ -358,7 +358,7 @@ export const specializations = [
   export const testimonialLists=[
     {
       id:1,
-      para:' LEARNOVATE EDUCATION provided me with the skills and confidence to excel in my tech career. The hands-on projects were invaluable.',
+      para:' Cognix Education provided me with the skills and confidence to excel in my tech career. The hands-on projects were invaluable.',
       title:'/icons/test-one.svg',
       subTitle:'Emil R., USA'
     },

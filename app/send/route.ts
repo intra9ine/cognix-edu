@@ -13,9 +13,9 @@ export async function POST(req: Request) {
    
 
     const { data, error } = await resend.emails.send({
-      from: `LEARNOVATE EDUCATION <delivered@resend.dev>`,
-      to: ['yashwithakarkera22@gmail.com'],
-      subject: `You have new Notification from ${from_name} from LEARNOVATE EDUCATION `,
+      from: `Cognix Education <delivered@resend.dev>`,
+      to: ['congnixeducation@gmail.com'],
+      subject: `You have new Notification from ${from_name} from Cognix Education `,
       html:`<!DOCTYPE html>
       <html lang="en">
         <head>

@@ -7,10 +7,10 @@ import Footer from "./components/Footer";
 import SpecializationSection from "./components/SpecializationSection";
 
 export const metadata: Metadata = {
-  title: "LEARNOVATE EDUCATION ",
+  title: "Cognix Education ",
   description: "Transforming Skills, Shaping Futures",
   openGraph: {
-    url: "https://www.learnovateedu.com/",
+    url: "https://www.cognixeducation.com/",
   },
 };
 

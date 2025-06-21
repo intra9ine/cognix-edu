@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     type: "website",
-    url: `https://www.learnovateedu.com/`,
-    siteName: "LEARNOVATE EDUCATION",
+    url: `https://www.cognixeducation.com/`,
+    siteName: "Cognix Education",
     
   },
 };
